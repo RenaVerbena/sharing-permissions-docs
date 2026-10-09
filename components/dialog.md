@@ -109,7 +109,7 @@ Built into the component:
 Required from the page or pattern that uses it:
 
 - A visible, specific title. It is the accessible name of the dialog.
-- Express everything needed to decide in the title and description.
+- Put everything needed to decide in the title and description, which screen readers announce when the dialog opens.
 - Don't rely on color alone to signal a destructive action. The label must say what happens.
 - An alert dialog must offer a non-destructive action.
 

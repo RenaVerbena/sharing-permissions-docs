@@ -30,7 +30,7 @@ built_with: [dialog]
 
 A remove access confirmation interrupts the user before an action that takes access away: removing a person from an item, turning off a shared link, leaving an item, or transferring ownership. It says who loses what, then asks for an explicit decision. It is built on the alert variant of the [Dialog](../components/dialog.md) component, so the user can't dismiss it by accident.
 
-Help people understand the consequence while they can still change their mind, and make the safe choice easy to find.
+The goal is to help people understand the consequence while they can still change their mind, and to make the safe choice easy to find.
 
 ## When to use
 
@@ -117,6 +117,7 @@ The alert variant has no close affordance and doesn't dismiss on scrim click or 
 ### Tone
 
 - Plain and specific. No exclamation points and no alarm.
+- Don't blame or lecture.
 - Use a neutral, matter-of-fact tone appropriate for routine administration.
 - Sentence case throughout.
 
@@ -132,11 +133,11 @@ Same structure. The description states how many people reached the item through 
 
 ### Leave
 
-The user removes their own access. Label the primary action "Leave," and explain how to get access back. If the user is the owner, don't offer Leave. Offer Transfer ownership first.
+The user removes their own access. Label the primary action "Leave," and use the description to say how to get access back. If the user is the owner, don't offer Leave. Offer Transfer ownership first.
 
 ### Transfer ownership, with typed verification
 
-Add a text field that asks the user to type the item's name before the primary action enables, and say exactly what to type. The description states the user's new role after the transfer and that only the new owner can transfer it back. Use typed verification only here. The friction is the point, and it wears out fast if it's overused.
+Add a text field that asks the user to type the item's name before the primary action enables, and say exactly what to type. The description states the user's new role after the transfer and that only the new owner can transfer it back. Use typed verification only here. The added friction suits a decision this consequential, and it wears out fast if it's overused.
 
 ### Remove several people
 
