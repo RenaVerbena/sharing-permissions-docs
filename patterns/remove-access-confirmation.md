@@ -30,7 +30,7 @@ built_with: [dialog]
 
 A remove access confirmation interrupts the user before an action that takes access away: removing a person from an item, turning off a shared link, leaving an item, or transferring ownership. It says who loses what, then asks for an explicit decision. It is built on the alert variant of the [Dialog](../components/dialog.md) component, so the user can't dismiss it by accident.
 
-The goal isn't to slow people down. It's to make sure they understand the consequence while they can still change their mind, and to make the safe choice easy to find.
+Help people understand the consequence while they can still change their mind, and make the safe choice easy to find.
 
 ## When to use
 
@@ -117,7 +117,7 @@ The alert variant has no close affordance and doesn't dismiss on scrim click or 
 ### Tone
 
 - Plain and specific. No exclamation points and no alarm.
-- Don't blame or lecture. Removing access is routine administration, not a crisis.
+- Use a neutral, matter-of-fact tone appropriate for routine administration.
 - Sentence case throughout.
 
 ## Variants
@@ -132,7 +132,7 @@ Same structure. The description states how many people reached the item through 
 
 ### Leave
 
-The user removes their own access. The primary action is "Leave," not "Remove," and the description says how to get access back. If the user is the owner, don't offer Leave. Offer Transfer ownership first.
+The user removes their own access. Label the primary action "Leave," and explain how to get access back. If the user is the owner, don't offer Leave. Offer Transfer ownership first.
 
 ### Transfer ownership, with typed verification
 

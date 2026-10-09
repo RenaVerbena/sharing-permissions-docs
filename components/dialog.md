@@ -84,7 +84,7 @@ Choose the size from the content. If the content needs more than Large, it belon
 ## Content
 
 - **Title.** Sentence case, specific, and no longer than about 60 characters.
-- **Description.** One or two sentences. Say what happens, not how the system works.
+- **Description.** One or two sentences. Explain the outcome of the user's action.
 - **Actions.** The primary action is a verb phrase that names the outcome. Never "Yes," "No," or "OK" alone. At most two actions in the action bar.
 - **Vocabulary.** Use the feature terms in the [README](../README.md#vocabulary): Invite, Change role, Remove access, Transfer ownership, Leave.
 
@@ -109,7 +109,7 @@ Built into the component:
 Required from the page or pattern that uses it:
 
 - A visible, specific title. It is the accessible name of the dialog.
-- Everything needed to decide is in the title and description, not in the visual layout.
+- Express everything needed to decide in the title and description.
 - Don't rely on color alone to signal a destructive action. The label must say what happens.
 - An alert dialog must offer a non-destructive action.
 

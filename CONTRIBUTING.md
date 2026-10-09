@@ -2,7 +2,7 @@
 
 > **Published portfolio example.** The roles, review steps, and tooling here are fictional and simplified to show a contribution model.
 
-Anyone who works on the feature can contribute: product designers, engineers, content designers, accessibility specialists, support, and product managers. You don't need to be on the UI Platform team or the Content Design team. You do need to use the page templates and follow the review workflow, so the guidelines stay consistent and people can trust what they find.
+Anyone who works on the feature can contribute: product designers, engineers, content designers, accessibility specialists, support, and product managers. Use the page templates and follow the review workflow so the guidelines stay consistent and people can trust what they find.
 
 ## Page types
 
@@ -45,7 +45,7 @@ Pick the page type by the question the reader is asking.
 7. Variants
 8. Accessibility (only what the pattern adds beyond its components)
 9. Design notes
-10. Implementation notes (a configuration example, not an API reference)
+10. Implementation notes (a configuration example using the component API)
 11. Built with
 12. Related patterns
 13. Version history
